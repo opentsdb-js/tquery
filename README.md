@@ -91,7 +91,11 @@ var rateOptions = {
 This method is a setter/getter. If no `tsuids` are provided, return the query `tsuids`. `tsuids` are __required__ to encode a tsuid query. To set `tsuids`,
 
 ``` javascript
+// Comma-delimited string:
 tQuery.tsuids( '001,002,003' );
+
+// Array:
+tQuery.tsuids( ['001','002','003'] );
 ```
 
 
